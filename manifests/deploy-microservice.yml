@@ -8,7 +8,7 @@ metadata:
     name: fire-microservice
     namespace: microservices
 spec:
-    replicas: 5
+    replicas: 6
     selector:
         matchLabels:
             run: fire-microservice
